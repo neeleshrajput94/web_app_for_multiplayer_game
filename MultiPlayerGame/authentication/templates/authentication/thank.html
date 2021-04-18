@@ -1,0 +1,7 @@
+{% extends 'authentication/base.html' %}
+{% block content %}
+
+    {% csrf_token %}
+    <h1> {{user}} Thank you for signing up!</h1>
+
+{% endblock %}
